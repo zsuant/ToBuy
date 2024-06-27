@@ -9,20 +9,20 @@
 /* Begin PBXBuildFile section */
 		FD16DB952C29B25B000EDE6F /* ToBuyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD16DB942C29B25B000EDE6F /* ToBuyApp.swift */; };
 		FD16DB972C29B25B000EDE6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD16DB962C29B25B000EDE6F /* ContentView.swift */; };
-		FD16DB992C29B25E000EDE6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD16DB982C29B25E000EDE6F /* Assets.xcassets */; };
 		FD16DB9C2C29B25E000EDE6F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD16DB9B2C29B25E000EDE6F /* Preview Assets.xcassets */; };
 		FD16DB9E2C29B25E000EDE6F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD16DB9D2C29B25E000EDE6F /* Persistence.swift */; };
 		FD16DBA12C29B25E000EDE6F /* ToBuy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FD16DB9F2C29B25E000EDE6F /* ToBuy.xcdatamodeld */; };
+		FD16DBA82C29B40C000EDE6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD16DBA72C29B40C000EDE6F /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FD16DB912C29B25B000EDE6F /* ToBuy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToBuy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD16DB942C29B25B000EDE6F /* ToBuyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToBuyApp.swift; sourceTree = "<group>"; };
 		FD16DB962C29B25B000EDE6F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		FD16DB982C29B25E000EDE6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD16DB9B2C29B25E000EDE6F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FD16DB9D2C29B25E000EDE6F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		FD16DBA02C29B25E000EDE6F /* ToBuy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToBuy.xcdatamodel; sourceTree = "<group>"; };
+		FD16DBA72C29B40C000EDE6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../Downloads/AppIcons/Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +55,9 @@
 		FD16DB932C29B25B000EDE6F /* ToBuy */ = {
 			isa = PBXGroup;
 			children = (
+				FD16DBA92C2A886D000EDE6F /* Views */,
+				FD16DBA72C29B40C000EDE6F /* Assets.xcassets */,
 				FD16DB942C29B25B000EDE6F /* ToBuyApp.swift */,
-				FD16DB962C29B25B000EDE6F /* ContentView.swift */,
-				FD16DB982C29B25E000EDE6F /* Assets.xcassets */,
 				FD16DB9D2C29B25E000EDE6F /* Persistence.swift */,
 				FD16DB9F2C29B25E000EDE6F /* ToBuy.xcdatamodeld */,
 				FD16DB9A2C29B25E000EDE6F /* Preview Content */,
@@ -71,6 +71,14 @@
 				FD16DB9B2C29B25E000EDE6F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FD16DBA92C2A886D000EDE6F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FD16DB962C29B25B000EDE6F /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,7 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD16DB9C2C29B25E000EDE6F /* Preview Assets.xcassets in Resources */,
-				FD16DB992C29B25E000EDE6F /* Assets.xcassets in Resources */,
+				FD16DBA82C29B40C000EDE6F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +296,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = zsuant.ToBuy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zsuant.ToBuy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -317,7 +325,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = zsuant.ToBuy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zsuant.ToBuy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
